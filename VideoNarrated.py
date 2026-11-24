@@ -1,6 +1,6 @@
 from moviepy import VideoFileClip, AudioFileClip
 
-video = VideoFileClip("Meal Planner.mp4")
+video = VideoFileClip("Meal Planner Narrated.mp4")
 narration = AudioFileClip("tts_output.wav")
 
 final = video.with_audio(narration)
